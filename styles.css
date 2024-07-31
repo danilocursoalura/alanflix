@@ -1,8 +1,39 @@
 body {
     color: rgb(0, 0, 0);
     background: rgb(255, 255, 255);
+    margin: 10px;
+    font-family: "Roboto", sans-serif;
 }
 
 header {
     border-bottom: solid 2px black;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+section {
+    border: solid rgb(190, 190, 190);
+    border-radius: 20px;
+    background: rgb(190, 190, 190);
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    justify-content: center;
+    display: flex;
+}
+
+.texto {
+    margin-right: 3%;
+}
+
+h1 {
+    font-size: 50px;
+    padding-left: 6%;
+}
+
+p {
+    padding-left: 6%
 }
