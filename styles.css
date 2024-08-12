@@ -1,8 +1,9 @@
 body {
     color:  rgb(248, 186, 42);
-    background: rgb(255,255, 255);
+    background: rgb(27,45,72,255);
     margin: 10px;
     font-family: "Roboto", sans-serif;
+    margin-bottom: 40px;
 }
 
 header {
@@ -44,11 +45,6 @@ p {
     padding-left: 6%
 }
 
-img {
-    height: 200px;
-    border-radius: 20px;
-}
-
 .assassins-videos {
     display: flex;
     overflow-x: auto;
@@ -58,9 +54,21 @@ img {
 .assassins {
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 35px;
     border: solid rgb(30,114,167,255);
     border-radius: 20px;
     background: rgb(30,114,167,255);
     margin-top: 15px;
     justify-content: center;
+}
+
+.assassins-videos img {
+    opacity: 0.5;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.assassins-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid rgb(248, 186, 42);
 }
