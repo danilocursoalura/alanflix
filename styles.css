@@ -1,6 +1,6 @@
 body {
     color:  rgb(248, 186, 42);
-    background: rgb(27,45,72,255);
+    background: rgba(27,45,72,255);
     margin: 10px;
     font-family: "Roboto", sans-serif;
 }
